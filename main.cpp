@@ -4,6 +4,7 @@ using namespace std;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 int sudetis(int x,int y){return x+y;}
 int main (int argc, char const *argv[])
 {
@@ -40,5 +41,13 @@ int main (int argc, char const *argv[])
 {
 	cout <<x<< " mod "<<y<<" = "<<modd(x,y)<<endl;
 >>>>>>> mod
+=======
+int divv(int x,int y){
+return x/y;
+}
+int main (int argc, char const *argv[])
+{
+	cout <<x<<" + "<<y<<" = "<<divv(x,y)<<endl;
+>>>>>>> div
 	return 0;
 }
